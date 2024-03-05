@@ -1,0 +1,164 @@
+@media (min-width:1024px) {
+.frm{
+    .container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #000E09;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    p{
+        text-align: center;
+        font: normal normal normal 15px/20px Mulish;
+        letter-spacing: 0.02px;
+        color: #36A546;
+        opacity: 1;
+        width: 143px;
+        height: 19px;
+        margin-top: 23px;
+        cursor: pointer;
+    }
+    h3{
+        text-align: center;
+        font: normal normal normal 16px/21px Mulish;
+        letter-spacing: 0.02px;
+        color: rgba(54, 165, 70, 0.8);
+        opacity: 1;
+        margin-top: 17px;
+        font-size: 20px;
+    }
+    img{
+        
+        width: 90px;
+        height: 90px;
+        background: transparent url('img/Group 3.png') 0% 0% no-repeat padding-box;
+        mix-blend-mode: normal;
+        opacity: 1;
+    }
+    button{
+        background: transparent linear-gradient(180deg, #00FF2580 0%, #000000 100%, #36A54680 100%) 0% 0% no-repeat padding-box;
+        mix-blend-mode: normal;
+        border: 2px solid #8CFF0026;
+        opacity: 1;
+        width: 238px;
+        height: 42px;
+        color: rgba(255, 255, 255, 0.55);
+        margin-top: 49px;
+        outline: none;
+        border-radius: 25px;
+        cursor: pointer;
+    }
+
+    .inpt{
+        display: flex;
+        flex-direction: column;
+        input{
+            background: #1F191966 0% 0% no-repeat padding-box;
+            box-shadow: inset 1px 1px 3px #FFFDFD40, 1px 3px 3px #66656547;
+            mix-blend-mode: normal;
+            opacity: 1;
+            margin-top: 25px;
+            
+            width: 238px;
+            height: 42px;
+            color: rgba(255, 255, 255, 1);
+            outline: none;
+            border-radius: 25px;
+            padding-left: 12px;
+
+        }
+    }
+    
+
+    }
+}
+    
+};
+  
+@media (min-width : 360px){
+    
+.frm{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background: transparent linear-gradient(180deg, #000000 0%, #000E09 100%) 0% 0% no-repeat padding-box;
+    
+
+    .container{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        
+
+        p{
+            text-align: center;
+            font: normal normal normal 15px/20px Mulish;
+            letter-spacing: 0.02px;
+            color: #36A546;
+            opacity: 1;
+            width: 143px;
+            height: 19px;
+            margin-top: 23px;
+            cursor: pointer;
+        }
+        h3{
+            text-align: center;
+            font: normal normal normal 16px/21px Mulish;
+            letter-spacing: 0.02px;
+            color: rgba(54, 165, 70, 0.8);
+            opacity: 1;
+            margin-top: 17px;
+            font-size: 20px;
+        }
+        img{
+            
+            width: 90px;
+            height: 90px;
+            background: transparent url('img/Group 3.png') 0% 0% no-repeat padding-box;
+            mix-blend-mode: normal;
+            opacity: 1;
+        }
+        button{
+            background: transparent linear-gradient(180deg, #00FF2580 0%, #000000 100%, #36A54680 100%) 0% 0% no-repeat padding-box;
+            mix-blend-mode: normal;
+            border: 2px solid #8CFF0026;
+            opacity: 1;
+            width: 238px;
+            height: 42px;
+            color: rgba(255, 255, 255, 0.55);
+            margin-top: 49px;
+            outline: none;
+            border-radius: 25px;
+            cursor: pointer;
+        }
+
+            .inpt{
+                display: flex;
+                flex-direction: column;
+            input{
+                background: #1F191966 0% 0% no-repeat padding-box;
+                box-shadow: inset 1px 1px 3px #FFFDFD40, 1px 3px 3px #66656547;
+                mix-blend-mode: normal;
+                opacity: 1;
+                margin-top: 25px;
+                
+                width: 238px;
+                height: 42px;
+                color: rgba(255, 255, 255, 1);
+                outline: none;
+                border-radius: 25px;
+                padding-left: 12px;
+
+            }
+        }
+        
+    }
+}
+}

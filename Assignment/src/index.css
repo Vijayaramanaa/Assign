@@ -1,0 +1,18 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+body {
+  margin: 0;
+  display: flex;
+  scroll-behavior: smooth;
+  scroll-snap-type: mandatory;
+  box-sizing: border-box;
+
+}
+
+
+

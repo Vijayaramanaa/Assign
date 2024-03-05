@@ -1,0 +1,41 @@
+@media (min-width:360px) {
+    
+.hdr{
+   height: 20vh;
+   position: relative;
+
+   .contact{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 40px;
+    height: 40px;
+    mix-blend-mode: normal;
+    opacity: 1;
+   }
+   .logo{
+    position: absolute;
+    top: 80px;
+    right: 0;
+    left: 180px;
+    width: 71px;
+    height: 70px;
+    mix-blend-mode: normal;
+    opacity: 1;
+   }
+   h2{
+    background-color: #5E5E5EB5;
+    border-radius: 50%;
+    position: absolute;
+    top: 49px;
+    text-align: center;
+    left: 240px;
+    width: 35px;
+    height: 35px;
+    font: normal normal normal 18px/25px Source Sans Pro;
+    letter-spacing: 0.02px;
+    color: #36A546;
+    opacity: 1;
+   }
+}
+}

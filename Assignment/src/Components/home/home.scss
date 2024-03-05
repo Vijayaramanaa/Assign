@@ -1,0 +1,59 @@
+@media (min-width:360px) {
+    .contain{
+        background-color: #0F2323;
+        width: 100vw;
+        max-height: 78vh;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        gap: 10px;
+        
+
+        .dashboard{
+            width:100vw;
+            height:50px;
+            background-color: #7a78788f;
+            border-radius: 20px;
+            h1{
+            width:100vw;
+            height: 50px;
+            font-size: 20px;
+            text-align: center;
+            letter-spacing: 0.01px;
+            color: #ffffff7a;
+            
+        }}
+        .maparea{
+            height: auto;
+            width: auto;
+            padding-bottom: 50px;
+            .clm{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+
+                h3{
+                    color: #FFFFFF;
+                }
+                h4{
+                    color: #36A546;
+                }
+            }
+            .rangebg{
+                width: auto;
+                height: 2vh;
+                margin-left: 20px;
+                background-color:transparent;
+                border-radius: 10px;
+
+                .range{
+                    width: auto;
+                    height: 2vh;
+                    background-color: #36A546;
+                    border-radius: 10px;
+                }
+            }
+
+        }
+    }
+}
